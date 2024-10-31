@@ -56,6 +56,6 @@ function frutiger_aero_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function frutiger_aero_customize_preview_js() {
-	wp_enqueue_script( 'frutiger-aero-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+	wp_enqueue_script( 'frutiger-aero-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), FRUTIGER_AERO_VERSION, true );
 }
 add_action( 'customize_preview_init', 'frutiger_aero_customize_preview_js' );
