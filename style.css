@@ -472,7 +472,8 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: #fff;
+	background: url("img/BG.png") no-repeat;
+	background-size: cover;
 }
 
 hr {
@@ -588,6 +589,39 @@ input[type="submit"]:focus {
 	border-color: #aaa #bbb #bbb;
 }
 
+/* Stolen from https://github.com/Z2r-YT/7-Aero-Stylesheet */
+button {
+	border: none;
+	outline: solid 1px #757575;
+	box-shadow:inset 0px 0px 0px 1px #fcfcfc;
+	color: black;
+	padding: 3px;
+	background: rgb(207,207,207);
+	background: linear-gradient(0deg, rgba(207,207,207,1) 0%, rgba(219,219,219,1) 49%, rgba(235,235,235,1) 49%, rgba(252,252,252,1) 100%);
+	border-radius: 3px;
+	padding: 3px 12px;
+	text-align: center;
+	min-height: 25px;
+	min-width: 75px;
+}
+
+button:hover {
+	outline: solid 1px #3c7fb1;
+	background: rgb(167,217,245);
+	background: linear-gradient(0deg, rgba(167,217,245,1) 0%, rgba(188,229,252,1) 49%, rgba(217,240,252,1) 49%, rgba(234,246,253,1) 100%);
+}
+
+button:active {
+	outline: solid 1px #2c628b, 1px dotted #000;
+	background: rgb(104,178,218);
+	background: linear-gradient(0deg, rgba(104,178,218,1) 0%, rgba(152,209,239,1) 49%, rgba(196,229,246,1) 49%, rgba(229,244,252,1) 100%);
+	box-shadow: inset 0 0 0 2px #86c6e8, inset 0 0 0 1px dotted #000;;
+}
+
+button {
+	user-select: none;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -644,12 +678,46 @@ textarea {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
+.site-title a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.site-branding {
+	margin-left: 3rem;
+}
+
+.site {
+	background: linear-gradient(
+		to right,
+		#ffffff66,
+		#0000001a,
+		#ffffff33)
+		#4580c4;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 3rem;
+	padding: 1rem;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3),
+		inset 0px 2px 1px rgba(255, 255, 255, 0.3),
+		inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+}
 
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: block;
-	width: 100%;
+	padding: 0.5rem;
+	background: linear-gradient(
+		180deg,
+		rgba(99, 102, 104, 0.9) 0%,
+		rgba(69, 71, 71, 0.9) 50.52%,
+		rgba(52, 52, 52, 0.9) 53.12%,
+		rgba(0, 0, 0, 0.9) 100%
+	);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3),
+		inset 0px 2px 1px rgba(255, 255, 255, 0.3),
+		inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 }
 
 .main-navigation ul {
@@ -739,6 +807,30 @@ textarea {
 .post-navigation .nav-next {
 	text-align: end;
 	flex: 1 0 50%;
+}
+
+.page_item a {
+	color: #fefefe;
+	text-decoration: none;
+}
+.page_item {
+	margin: 0 1em;
+	border-right: 1px solid;
+	padding: 0 1.5rem;
+}
+.current_page_item {
+	background: linear-gradient(
+		180deg,
+		rgba(149, 152, 154, 0.9) 0%,
+		rgba(121, 121, 121, 0.9) 50.52%,
+		rgba(102, 102, 102, 0.9) 53.12%,
+		rgba(50, 50, 50, 0.9) 100%
+	);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3),
+		inset 0px 2px 1px rgba(255, 255, 255, 0.3),
+		inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+
 }
 
 /* Posts and pages
