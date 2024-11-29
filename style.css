@@ -3,17 +3,15 @@ Theme Name: Frutiger Aero
 Theme URI: https://github.com/saint-hilaire/frutiger-aero
 Author: Brian St. Hilaire
 Author URI: https://sainthilarious.dev
-Description: Frutiger Aero aesthetic inspired WordPress theme.
+Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Version: 0.2.0
+Tags: frutiger-aero
+Text Domain: frutiger-aero
+Requires at least: 4.5
 Tested up to: 6.7.1
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: frutiger-aero
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Frutiger Aero is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
@@ -472,7 +470,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: url("img/BG1.jpg") no-repeat;
+	background: url("img/BG.jpg") no-repeat;
 	background-size: cover;
 }
 
@@ -589,7 +587,7 @@ input[type="submit"]:focus {
 	border-color: #aaa #bbb #bbb;
 }
 
-/* Stolen from https://github.com/Z2r-YT/7-Aero-Stylesheet */
+/* Credit: https://github.com/Z2r-YT/7-Aero-Stylesheet */
 button {
 	border: none;
 	outline: solid 1px #757575;
@@ -597,7 +595,13 @@ button {
 	color: black;
 	padding: 3px;
 	background: rgb(207,207,207);
-	background: linear-gradient(0deg, rgba(207,207,207,1) 0%, rgba(219,219,219,1) 49%, rgba(235,235,235,1) 49%, rgba(252,252,252,1) 100%);
+	background: linear-gradient(
+		0deg,
+		rgba(207,207,207,1) 0%,
+		rgba(219,219,219,1) 49%,
+		rgba(235,235,235,1) 49%,
+		rgba(252,252,252,1) 100%
+	);
 	border-radius: 3px;
 	padding: 3px 12px;
 	text-align: center;
@@ -605,19 +609,34 @@ button {
 	min-width: 75px;
 }
 
+/* Credit: https://github.com/Z2r-YT/7-Aero-Stylesheet */
 button:hover {
 	outline: solid 1px #3c7fb1;
 	background: rgb(167,217,245);
-	background: linear-gradient(0deg, rgba(167,217,245,1) 0%, rgba(188,229,252,1) 49%, rgba(217,240,252,1) 49%, rgba(234,246,253,1) 100%);
+	background: linear-gradient(
+		0deg,
+		rgba(167,217,245,1) 0%,
+		rgba(188,229,252,1) 49%,
+		rgba(217,240,252,1) 49%,
+		rgba(234,246,253,1) 100%
+	);
 }
 
+/* Credit: https://github.com/Z2r-YT/7-Aero-Stylesheet */
 button:active {
 	outline: solid 1px #2c628b, 1px dotted #000;
 	background: rgb(104,178,218);
-	background: linear-gradient(0deg, rgba(104,178,218,1) 0%, rgba(152,209,239,1) 49%, rgba(196,229,246,1) 49%, rgba(229,244,252,1) 100%);
+	background: linear-gradient(
+		0deg,
+		rgba(104,178,218,1) 0%,
+		rgba(152,209,239,1) 49%,
+		rgba(196,229,246,1) 49%,
+		rgba(229,244,252,1) 100%
+	);
 	box-shadow: inset 0 0 0 2px #86c6e8, inset 0 0 0 1px dotted #000;;
 }
 
+/* Credit: https://github.com/Z2r-YT/7-Aero-Stylesheet */
 button {
 	user-select: none;
 }
@@ -683,7 +702,8 @@ textarea {
 	padding: 2rem;
 }
 
-.site-title a {
+.site-title a,
+.site-description {
 	text-decoration: none;
 	color: #fefefe;
 }
@@ -811,22 +831,31 @@ textarea {
 	flex: 1 0 50%;
 }
 
-.page_item a {
+.page_item a,
+.menu-item a {
 	color: #111;
 	text-decoration: none;
 	margin: 0 1.5rem;
 }
 
-.page_item {
+.page_item,
+.menu-item {
 	padding: 0.25rem;
 	border-radius: 4px;
 }
 
 .page_item:hover,
-.current_page_item {
+.current_page_item,
+.menu-item:hover {
 	outline: solid 1px #3c7fb1;
 	background: rgb(167,217,245);
-	background: linear-gradient(0deg, rgba(167,217,245,1) 0%, rgba(188,229,252,1) 49%, rgba(217,240,252,1) 49%, rgba(234,246,253,1) 100%);
+	background: linear-gradient(
+		0deg,
+		rgba(167,217,245,1) 0%,
+		rgba(188,229,252,1) 49%,
+		rgba(217,240,252,1) 49%,
+		rgba(234,246,253,1) 100%
+	);
 }
 
 /* Posts and pages

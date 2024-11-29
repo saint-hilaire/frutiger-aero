@@ -1,20 +1,21 @@
 === Frutiger Aero ===
 
-Contributors: automattic
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
+Theme Name: Frutiger Aero
+Theme URI: https://github.com/saint-hilaire/frutiger-aero
+Author: Brian St. Hilaire
+Author URI: https://sainthilarious.dev
+Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
+Version: 0.2.0
+Tags: frutiger-aero
 Requires at least: 4.5
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 0.2.0
 License: GNU General Public License v2 or later
-License URI: LICENSE
-
-A starter theme called Frutiger Aero.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Description
+A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 
 == Installation ==
 
@@ -30,8 +31,42 @@ Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpac
 
 == Changelog ==
 
-= 1.0 - May 12 2015 =
-* Initial release
+= 0.2.0 - November 28 2024 =
+* Style improvements
+
+= 0.1.0 - November 1 2024 =
+* Publish as work in progress to GitHub.
+
+== Copyright ==
+
+Frutiger Aero WordPress Theme, Copyright 2024 Brian St. Hilaire
+Frutiger Aero is distributed under the terms of the GNU GPLv2.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/gpl-2.0.html
+
+Frutiger Aero WordPress Theme is derived from Underscores WordPress Theme, Copyright 2012-2020 Automattic, Inc.
+Underscores WordPress Theme is distributed under the terms of the GNU GPLv2.
+
+Frutiger Aero WordPress Theme incorporates code from 7-Aero-Stylesheet, Copyright 2023 Z2r-YT
+( https://github.com/Z2r-YT/7-Aero-Stylesheet )
+7-Aero-Stylesheet is distributed under the terms of the MIT License.
+
+Frutiger Aero WordPress Theme bundles the following third-party resources:
+
+/img/BG.jpg (site wide background image)
+Source: https://g7up.neocities.org
+
 
 == Credits ==
 
