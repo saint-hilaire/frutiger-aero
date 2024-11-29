@@ -1,20 +1,21 @@
 {
-  "name": "underscores",
-  "version": "1.0.0",
-  "description": "Hi. I'm a starter theme called _s, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.",
-  "author": "Automattic Theme Team",
+  "name": "frutiger-aero",
+  "version": "0.2.0",
+  "description": "A theme inspired by the Frutiger Aero aesthetic of the early 2000s.",
+  "author": "Brian St. Hilaire",
   "license": "GPL-2.0-or-later",
   "keywords": [
     "WordPress",
-    "Theme"
+    "Theme",
+    "Frutiger Aero"
   ],
-  "homepage": "https://github.com/Automattic/_s#readme",
+  "homepage": "https://github.com/saint-hilaire/frutiger-aero",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Automattic/_s.git"
+    "url": "git+https://github.com/saint-hilaire/frutiger-aero.git"
   },
   "bugs": {
-    "url": "https://github.com/Automattic/_s/issues"
+    "url": "https://github.com/saint-hilaire/frutiger-aero/issues"
   },
   "devDependencies": {
     "@wordpress/scripts": "^19.2.2",
