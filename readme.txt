@@ -5,7 +5,7 @@ Theme URI: https://github.com/saint-hilaire/frutiger-aero
 Author: Brian St. Hilaire
 Author URI: https://sainthilarious.dev
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.0.0-beta-1
+Version: 1.0.0
 Tags: frutiger-aero
 Requires at least: 4.5
 Tested up to: 6.7.1
@@ -30,6 +30,9 @@ A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.0.0 - November 30 2024 =
+* Submit to WordPress Theme Directory.
 
 = 1.0.0-beta-1 - November 29 2024 =
 * Begin preparing submission to Theme Directory.
