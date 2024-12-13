@@ -704,8 +704,11 @@ textarea {
 
 .site-title a,
 .site-description {
-	text-decoration: none;
 	color: #fefefe;
+}
+
+.site-title a {
+	text-decoration: underline;
 }
 
 .site-branding {
@@ -834,8 +837,14 @@ textarea {
 .page_item a,
 .menu-item a {
 	color: #111;
-	text-decoration: none;
 	margin: 0 1.5rem;
+}
+
+.page_item a:hover,
+.menu-item a:hover,
+.page_item a:focus-within,
+.menu-item a:focus-within {
+	text-decoration: underline;
 }
 
 .page_item,
