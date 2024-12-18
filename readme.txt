@@ -73,7 +73,7 @@ Frutiger Aero WordPress Theme incorporates code from 7-Aero-Stylesheet, Copyrigh
 
 Frutiger Aero WordPress Theme bundles the following third-party resources:
 
-/img/BG.jpg (site wide background image)
+/img/frutiger-aero-background.jpg (site wide background image)
 Source: https://g7up.neocities.org
 
 
