@@ -6,7 +6,7 @@ Author: Brian St. Hilaire
 Author URI: https://sainthilarious.dev
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Version: 1.0.0
-Tags: frutiger-aero
+Tags: one-column
 Requires at least: 4.5
 Tested up to: 6.7.1
 Requires PHP: 5.6
