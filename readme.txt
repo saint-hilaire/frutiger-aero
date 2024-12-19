@@ -64,6 +64,12 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/gpl-2.0.html
 
+Frutiger Aero is derived from and incorporates work from third party resources which are licensed
+under the following licenses:
+
+* GNU GPLv2
+* MIT
+
 Frutiger Aero WordPress Theme is derived from Underscores WordPress Theme, Copyright 2012-2020 Automattic, Inc.
 Underscores WordPress Theme is distributed under the terms of the GNU GPLv2.
 
