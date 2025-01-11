@@ -8,7 +8,7 @@ Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Version: 1.0.1
 Tags: one-column
 Requires at least: 4.5
-Tested up to: 6.7.1
+Tested up to: 6.7
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
