@@ -96,10 +96,10 @@ Frutiger Aero WordPress Theme incorporates code and images from 7-Aero-Styleshee
 
 Frutiger Aero WordPress Theme bundles the following third-party resources:
 
-/img/frutiger-aero-background.jpg (site wide background image)
-Source: https://github.com/Z2r-YT/7-Aero-Stylesheet/blob/main/assets/bg.jpg
-License: MIT ( https://github.com/Z2r-YT/7-Aero-Stylesheet/blob/main/LICENSE )
-
+Site wide background image, Credit Z2r-YT (https://github.com/Z2r-YT)
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+License URL: https://windowswallpaper.miraheze.org/wiki/Img24_(Windows_Vista)
+Source: https://windowswallpaper.miraheze.org/wiki/Img24_(Windows_Vista)#/media/File:Img24_(Windows_Vista).jpg
 
 == Credits ==
 
