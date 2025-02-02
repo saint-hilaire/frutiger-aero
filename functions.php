@@ -9,7 +9,7 @@
 
 if ( ! defined( 'FRUTIGER_AERO_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'FRUTIGER_AERO_VERSION', '1.0.3' );
+	define( 'FRUTIGER_AERO_VERSION', '1.1.0-rc-1' );
 }
 
 if ( ! defined( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX' ) ) {
