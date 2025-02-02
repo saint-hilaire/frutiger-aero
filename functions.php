@@ -12,6 +12,10 @@ if ( ! defined( 'FRUTIGER_AERO_VERSION' ) ) {
 	define( 'FRUTIGER_AERO_VERSION', '1.0.3' );
 }
 
+if ( ! defined( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX' ) ) {
+	define( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX', '69b065' );
+}
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -76,7 +80,7 @@ function frutiger_aero_setup() {
 		apply_filters(
 			'frutiger_aero_custom_background_args',
 			array(
-				'default-color' => 'ffffff',
+				'default-color' => FRUTIGER_AERO_DEFAULT_COLOR_HEX,
 				'default-image' => '',
 			)
 		)
@@ -128,6 +132,26 @@ function frutiger_aero_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'frutiger_aero_scripts' );
+
+function frutiger_aero_custom_background() {
+	?>
+	<style>
+		body {
+			<?php if ( get_background_image() ): ?>
+			background-image: <? echo get_background_image(); ?>;
+			<?php else: ?>
+			background: linear-gradient(
+				to right,
+				#ffffff66,
+				#0000001a,
+				#ffffff33
+			) #<?php echo FRUTIGER_AERO_DEFAULT_COLOR_HEX; ?>;
+			<?php endif; ?>
+		}
+	</style>
+	<?php
+}
+add_action( 'wp_head', 'frutiger_aero_custom_background' );
 
 /**
  * Implement the Custom Header feature.
