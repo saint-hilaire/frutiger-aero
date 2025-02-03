@@ -13,7 +13,7 @@ if ( ! defined( 'FRUTIGER_AERO_VERSION' ) ) {
 }
 
 if ( ! defined( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX' ) ) {
-	define( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX', '69b065' );
+	define( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX', '9fffc5' );
 }
 
 /**
@@ -139,13 +139,16 @@ function frutiger_aero_custom_background() {
 		body {
 			<?php if ( get_background_image() ): ?>
 			background-image: <? echo get_background_image(); ?>;
+			background-size: cover !important;
 			<?php else: ?>
 			background: linear-gradient(
-				to right,
-				#ffffff66,
-				#0000001a,
-				#ffffff33
+				135deg,
+				#00000066 0%,
+				#ffffff1a 50%,
+				#ffffff33 100%
 			) #<?php echo FRUTIGER_AERO_DEFAULT_COLOR_HEX; ?>;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
 			<?php endif; ?>
 		}
 	</style>
