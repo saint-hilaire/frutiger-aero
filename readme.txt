@@ -5,7 +5,7 @@ Theme URI: https://github.com/saint-hilaire/frutiger-aero
 Author: Brian St. Hilaire
 Author URI: https://sainthilarious.dev
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.0.3
+Version: 1.1.0
 Tags: one-column
 Requires at least: 4.5
 Tested up to: 6.7
@@ -30,6 +30,11 @@ A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.1.0 - February 3 2025
+* Remove hard coded background image.
+* Add support for custom backgrounds. If no background image
+  is used, fall back to a default color gradient.
 
 = 1.0.3 - January 15 2025
 * Fix 3rd party license info.
@@ -90,15 +95,9 @@ under the following licenses:
 Frutiger Aero WordPress Theme is derived from Underscores WordPress Theme, Copyright 2012-2020 Automattic, Inc.
 Underscores WordPress Theme is distributed under the terms of the GNU GPLv2.
 
-Frutiger Aero WordPress Theme incorporates code and images from 7-Aero-Stylesheet, Copyright 2023 Z2r-YT
+Frutiger Aero WordPress Theme incorporates code from 7-Aero-Stylesheet, Copyright 2023 Z2r-YT
 ( https://github.com/Z2r-YT/7-Aero-Stylesheet )
 7-Aero-Stylesheet is distributed under the terms of the MIT License.
-
-Frutiger Aero WordPress Theme bundles the following third-party resources:
-
-/img/frutiger-aero-background.jpg (site wide background image)
-Source: https://github.com/Z2r-YT/7-Aero-Stylesheet/blob/main/assets/bg.jpg
-License: MIT ( https://github.com/Z2r-YT/7-Aero-Stylesheet/blob/main/LICENSE )
 
 
 == Credits ==
