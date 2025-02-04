@@ -134,27 +134,28 @@ function frutiger_aero_scripts() {
 add_action( 'wp_enqueue_scripts', 'frutiger_aero_scripts' );
 
 function frutiger_aero_custom_background() {
-	?>
-	<style>
-		body {
-			<?php if ( get_background_image() ): ?>
-			background-image: <? echo get_background_image(); ?>;
-			background-size: cover !important;
-			<?php else: ?>
-			background: linear-gradient(
-				135deg,
-				#00000066 0%,
-				#ffffff1a 50%,
-				#ffffff33 100%
-			) #<?php echo FRUTIGER_AERO_DEFAULT_COLOR_HEX; ?>;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			<?php endif; ?>
-		}
-	</style>
-	<?php
+	if ( get_background_image() ) {
+		$body_css = array(
+			'background-image: ' . get_background_image(),
+			'background-size: cover !important',
+		);
+	} else {
+		$body_css = array(
+			'background: linear-gradient('
+				. '135deg,'
+				. '#00000066 0%,'
+				. '#ffffff1a 50%,'
+				. '#ffffff33 100%) #' . FRUTIGER_AERO_DEFAULT_COLOR_HEX,
+			'background-repeat: no-repeat',
+			'background-attachment: fixed',
+		);
+	}
+	wp_add_inline_style(
+		'frutiger-aero-style',
+		'body { ' . implode('; ', $body_css) . ';}'
+	);
 }
-add_action( 'wp_head', 'frutiger_aero_custom_background' );
+add_action( 'wp_enqueue_scripts', 'frutiger_aero_custom_background' );
 
 /**
  * Implement the Custom Header feature.
