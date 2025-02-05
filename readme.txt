@@ -5,7 +5,7 @@ Theme URI: https://github.com/saint-hilaire/frutiger-aero
 Author: Brian St. Hilaire
 Author URI: https://sainthilarious.dev
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.1.0
+Version: 1.1.1-alpha-1
 Tags: one-column
 Requires at least: 4.5
 Tested up to: 6.7
