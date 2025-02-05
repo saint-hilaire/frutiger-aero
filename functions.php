@@ -134,9 +134,17 @@ function frutiger_aero_scripts() {
 add_action( 'wp_enqueue_scripts', 'frutiger_aero_scripts' );
 
 function frutiger_aero_custom_background() {
-	if ( get_background_image() ) {
+	if ( get_header_image() ) {
+		$bg_img = get_header_image();
+	} else if ( get_background_image() ) {
+		$bg_img = get_background_image();
+	} else {
+		$bg_img = false;
+	}
+
+	if ( $bg_img ) {
 		$body_css = array(
-			'background-image: ' . get_background_image(),
+			sprintf('background-image: url("%s") !important', $bg_img),
 			'background-size: cover !important',
 		);
 	} else {
