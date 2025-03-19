@@ -531,6 +531,7 @@ a:active {
 /* Forms
 --------------------------------------------- */
 button,
+button.menu-toggle,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -584,7 +585,7 @@ button {
 }
 
 /* Credit: https://github.com/Z2r-YT/7-Aero-Stylesheet */
-button:hover {
+button:focus {
 	outline: solid 1px #3c7fb1;
 	background: rgb(167,217,245);
 	background: linear-gradient(
