@@ -4,7 +4,7 @@ Theme URI: https://github.com/saint-hilaire/frutiger-aero
 Author: Brian St. Hilaire
 Author URI: https://sainthilarious.dev
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.1.1
+Version: 1.1.2
 Tags: one-column
 Text Domain: frutiger-aero
 Requires at least: 4.5
@@ -531,6 +531,7 @@ a:active {
 /* Forms
 --------------------------------------------- */
 button,
+button.menu-toggle,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -584,7 +585,7 @@ button {
 }
 
 /* Credit: https://github.com/Z2r-YT/7-Aero-Stylesheet */
-button:hover {
+button:focus {
 	outline: solid 1px #3c7fb1;
 	background: rgb(167,217,245);
 	background: linear-gradient(
